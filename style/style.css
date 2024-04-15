@@ -346,6 +346,20 @@ section.faq{
     margin: 6rem auto;
 }
 
+.faq > h2{
+    margin-bottom: 3rem;
+}
+
+.faq > section {
+    justify-content: space-between;
+    padding: 2rem 1rem 2rem 0 ;
+    border-top: 1px solid #716c65;;
+}
+
+.faq > section:last-of-type {
+    border-bottom: 1px solid #716c65;;
+}
+
 /* ! img section */
 
 #designit {
