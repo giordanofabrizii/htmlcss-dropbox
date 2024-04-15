@@ -281,10 +281,6 @@ section.operazioni h2{
     margin: 5rem 0 2rem 0;
 }
 
-section.operazion a {
-    text-decoration:   ;
-}
-
 section.squares {
     height: 40rem;
 }
@@ -292,7 +288,6 @@ section.squares {
 section.squares > section > article {
     height: 20rem;
     aspect-ratio: 1/1;
-
     position: relative;
 }
 
@@ -331,7 +326,24 @@ article.big-section p{
     margin: 2.5rem 0;
 }
 
+section.prova-gratuita {
+    padding: 6rem 0;
+    justify-content: space-between;
+}
+
+section.prova-gratuita h2{
+    width: 50%;
+}
+
+section.prova-gratuita button {
+    margin-top: 0.4rem;
+    height: 3rem;
+    width: 17rem;
+    background-color: white;
+}
+
 /* ! img section */
+
 #designit {
     background-color: #a2d39b;
     border: 15px #d1e9cd solid;
@@ -389,4 +401,8 @@ article.big-section p{
 
 .blue-color{
     color: #1414ef;
+}
+
+.bordeaux-color{
+    color: #61082a;
 }
