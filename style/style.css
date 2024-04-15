@@ -11,6 +11,20 @@
     margin: 0 auto;
 }
 
+.semi-limited{
+    width: 78rem;
+    margin: 0 auto;
+}
+
+.maxi-limited{
+    width: 68rem;
+    margin: 0 auto;
+}
+
+header.limitation-main{
+    margin-bottom: 5rem;
+}
+
 .horizontal-alignment{
     display: flex;
     flex-direction: row;
@@ -20,6 +34,9 @@ section.navigation-section{
     width: 100%;
     justify-content: space-between;
     padding: 1.5rem;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
 }
 
 [alt="dropbox logo"] {
@@ -45,16 +62,6 @@ section.header-content{
     position: relative;
 }
 
-.semi-limited{
-    width: 78rem;
-    margin: 0 auto;
-}
-
-.maxi-limited{
-    width: 70rem;
-    margin: 0 auto;
-}
-
 section.header-text{
     width: 22rem;
 }
@@ -69,7 +76,7 @@ header h1{
     line-height: 5.5rem;
     font-size: 4.5rem;
     font-weight: 900;
-    padding: 4.5rem 0 3.5rem 0;
+    padding: 9.5rem 0 3.5rem 0;
 }
 
 header p{
@@ -86,6 +93,32 @@ header i{
     font-size: bold;
 }
 
+button{
+    border: none;
+}
+
+section.fatturazione{
+    padding: 3rem 0;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+section.input{
+    margin: 2rem 0;
+}
+
+[type="radio"]:last-of-type {
+    margin-left: 2rem
+}
+
+article{
+    border: 2px solid #dfdfe1;
+}
+
+/* ? color section*/
+
 .gray-color{
     color: #3f3f3f;;
 }
@@ -100,8 +133,4 @@ header i{
 
 .light-blue-back{
     background-color: #b4d0e7;
-}
-
-button{
-    border: none;
 }
