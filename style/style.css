@@ -45,9 +45,44 @@ a{
     font-size: 1rem
 }
 
+section.header-content{
+    position: relative;
+}
+
 .semi-limited{
-    width: 100rem;
+    width: 78rem;
     margin: 0 auto;
+}
+
+section.header-text{
+    width: 22rem;
+}
+
+section.jumbotron img {
+    width: 55rem;
+    position: absolute;
+    right: 0;
+}
+
+header h1{
+    line-height: 5.5rem;
+    font-size: 4.5rem;
+    font-weight: 900;
+    padding: 4.5rem 0 3.5rem 0;
+}
+
+header p{
+    line-height: 1.5rem;
+}
+
+section.jumbotron button{
+    margin: 2rem 0;
+}
+
+header i{
+    margin: 4rem 0 1.5rem 0;
+    font-size: 3rem;
+    font-size: bold;
 }
 
 .gray-color{
