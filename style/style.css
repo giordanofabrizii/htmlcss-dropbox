@@ -54,6 +54,11 @@ section.header-content{
     margin: 0 auto;
 }
 
+.maxi-limited{
+    width: 70rem;
+    margin: 0 auto;
+}
+
 section.header-text{
     width: 22rem;
 }
