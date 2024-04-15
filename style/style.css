@@ -31,7 +31,6 @@ header.limitation-main{
 }
 
 section.navigation-section{
-    width: 100%;
     justify-content: space-between;
     padding: 1.5rem;
     position: fixed;
@@ -122,22 +121,86 @@ section.piani{
 
 article{
     border: 2px solid #dfdfe1;
-    width: calc((68rem / 3) - 1rem);
+    width: calc((68rem / 3) - 2rem);
 }
 
 article > header {
     border-bottom: 2px solid #dfdfe1;
     padding: 1rem;
+    justify-content: center;
+}
+
+a.blue-color{
+    text-decoration: underline;
+}
+
+article hr{
+    width: 3.5rem;
+    margin-top: 1rem;
+    border-color: #e7e7e9;
 }
 
 article > main {
-    padding: 1.5rem 1rem;
+    padding: 2rem 2rem;
+}
+
+article > main h3{
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+article > main p.gray-color{
+    padding: 0.7rem 0;
+    font-size: 0.8rem;
+}
+
+article > main > section{
+    padding: 1rem 0;
+}
+
+.funzionalita{
+    display: flex;
+    flex-direction: column;
+}
+
+.funzionalita > *{
+    padding: 0.5rem 0;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+article i{
+    margin-right: 0.5rem;
+}
+
+.funzionalita > button {
+    padding: 0.6rem 2.3rem;
+    margin: 2.5rem 0 1rem 0;
+    width: 90%;
+    align-self: center;
+}
+
+.funzionalita > button > a{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+section.bonus{
+    margin: 2rem 0 0 0;
+}
+
+section.bonus > h4{
+    margin: 0 0 1.5rem 0 ;
+}
+
+section.bonus > div {
+    margin: 1rem 0;
 }
 
 /* ? color section*/
 
 .gray-color{
-    color: #3f3f3f;;
+    color: #716c65;
 }
 
 .azure-back{
@@ -154,4 +217,8 @@ article > main {
 
 .azure-color{
     color: #005eff;
+}
+
+.blue-color{
+    color: #1414ef;
 }
