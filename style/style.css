@@ -23,6 +23,7 @@
 
 header.limitation-main{
     margin-bottom: 5rem;
+    width: 100vw;
 }
 
 .horizontal-alignment{
@@ -36,6 +37,7 @@ section.navigation-section{
     position: fixed;
     background-color: white;
     z-index: 1;
+    width: 100%;
 }
 
 [alt="dropbox logo"] {
