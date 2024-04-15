@@ -40,8 +40,21 @@ a{
     margin: 0.5rem 1rem;
     display: inline-block;
     vertical-align: top;
+    font-size: 1rem
 }
 
 .gray-color{
-    color: #717171;;
+    color: #3f3f3f;;
+}
+
+.azure-back{
+    background-color: #0061ff;
+}
+
+.white-color{
+    color: white;
+}
+
+button{
+    border: none;
 }
