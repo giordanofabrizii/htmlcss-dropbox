@@ -360,6 +360,36 @@ section.faq{
     border-bottom: 1px solid #716c65;;
 }
 
+footer{
+    padding: 5rem 0 3rem 0;
+}
+
+footer > section.horizontal-alignment{
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+footer > section.horizontal-alignment h4{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer > section.horizontal-alignment a{
+    line-height: 2.5rem
+}
+
+footer hr{
+    width: 10rem;
+}
+
+section.language section{
+    margin-top: 2rem;
+}
+
+section.language p{
+    margin: 0 0.6rem;
+}
+
 /* ! img section */
 
 #designit {
@@ -423,4 +453,8 @@ section.faq{
 
 .bordeaux-color{
     color: #61082a;
+}
+
+.black-back{
+    background-color: black ;
 }
