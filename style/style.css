@@ -197,6 +197,53 @@ section.bonus > div {
     margin: 1rem 0;
 }
 
+article.enterprise > main > div{
+    justify-content: space-between;
+}
+
+article.enterprise section.text{
+    width: 70%;
+}
+
+article.enterprise button{
+    padding: 0.8rem 1.8rem;
+}
+
+article.enterprise section.text p{
+    margin-top: 2.5rem;
+}
+
+section.partner{
+    padding: 3rem 0;
+    margin: 4rem auto;
+}
+
+section.partner section.img{
+    width: 230%;
+}
+
+section.partner img{
+    width: 100%;
+}
+
+section.partner section.text{
+    padding: 3rem;
+}
+
+section.partner section.text h3{
+    font-size: 1.5rem;
+}
+
+section.partner section.text p{
+    margin: 1rem 0 1.5rem 0;
+}
+
+section.partner section.text button{
+    padding: 0.7rem 1rem;
+    background-color: white;
+    border: 2px solid black;
+}
+
 /* ? color section*/
 
 .gray-color{
