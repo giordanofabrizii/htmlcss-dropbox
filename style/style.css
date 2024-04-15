@@ -8,6 +8,7 @@
 
 .limitation-main{
     width: 120rem;
+    margin: 0 auto;
 }
 
 header {
@@ -24,6 +25,7 @@ section.navigation-section{
     justify-content: space-between;
     padding: 1.5rem;
 }
+
 [alt="dropbox logo"] {
     height: 1.8rem;
     margin-top: 0.2rem;
@@ -43,6 +45,11 @@ a{
     font-size: 1rem
 }
 
+.semi-limited{
+    width: 100rem;
+    margin: 0 auto;
+}
+
 .gray-color{
     color: #3f3f3f;;
 }
@@ -53,6 +60,10 @@ a{
 
 .white-color{
     color: white;
+}
+
+.light-blue-back{
+    background-color: #b4d0e7;
 }
 
 button{
