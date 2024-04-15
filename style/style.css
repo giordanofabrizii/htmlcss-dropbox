@@ -121,8 +121,11 @@ section.piani{
     justify-content: space-between;
 }
 
-article{
+article.border{
     border: 2px solid #dfdfe1;
+}
+
+section.fatturazione article{
     width: calc((68rem / 3) - 2rem);
 }
 
@@ -244,6 +247,63 @@ section.partner section.text button{
     padding: 0.7rem 1rem;
     background-color: white;
     border: 2px solid black;
+}
+
+section.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.container > article{
+    width: calc((68rem / 3) - 2rem);
+    padding: 2rem 0;
+}
+
+section.container > article > img {
+    width: 100%;
+}
+
+section.container > article > h3{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+section.container > article > p{
+    font-size: 1.1rem;
+}
+
+section.operazioni{
+    margin-bottom: 8rem;
+}
+
+section.operazioni h2{
+    margin: 5rem 0 2rem 0;
+}
+
+section.operazion a {
+    text-decoration:   ;
+}
+
+section.squares {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+
+    grid-auto-flow: dense;
+
+    height: 40rem;
+    /* background-color: blue; */
+}
+
+section.squares > article {
+    /* background-color: red; */
+    height: calc((100% / 2));
+}
+
+.img-2x2{
+    grid-row-end: span 2;
+    grid-column-end: span 2;
 }
 
 /* ? color section*/
