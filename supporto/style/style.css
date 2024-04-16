@@ -53,6 +53,8 @@ input[type="search"]{
 header{
     position: fixed;
     width: 100vw;
+    background-color: white;
+    padding-bottom: 0.3rem;
 }
 
 header .search-bar{
@@ -72,7 +74,11 @@ header li{
 /* ! MAIN */
 
 main{
-    padding-top: 6.5rem;
+    padding-top: 6rem;
+}
+
+main .container{
+    padding: 3rem;
 }
 
 main section.first-info {
@@ -107,15 +113,17 @@ main input[type="search"] {
     font-size: 1.3rem;
 }
 
-main .articles{
-    justify-content: space-around;;
+main nav.articles{
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
-main .articles article{
+main nav.articles article{
     width: calc((100% / 3) - 3rem);
+    margin-top: 8rem;
 }
 
-main section.articles > article > .image-container{
+main nav.articles > article > .image-container{
     background-color: white;
     display: flex;
     align-items: center;
@@ -123,14 +131,26 @@ main section.articles > article > .image-container{
     aspect-ratio: 1/1;
 }
 
-main .articles img{
+main nav.articles img{
     width: 80%;
     align-self: center;
 }
 
+main nav.articles article h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 4.5rem;
+    border-bottom: 1px solid #c5c1b7;
+}
+
+main nav.articles article li{
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+}
+
 /* ? COLORS */
 .gray-color{
-    color: #6d7074;
+    color: #979797;
 }
 
 .brown-back {
