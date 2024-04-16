@@ -344,6 +344,7 @@ section.prova-gratuita button {
     width: 17rem;
 }
 
+
 section.faq{
     margin: 6rem auto;
 }
@@ -352,14 +353,34 @@ section.faq{
     margin-bottom: 3rem;
 }
 
-.faq > section {
+section.faq > button.accordion{
+    width: 100%;
     justify-content: space-between;
     padding: 2rem 1rem 2rem 0 ;
-    border-top: 1px solid #716c65;;
+    font-size: 1rem;
+    background-color: white;
+    border-top: 1px solid #716c65;
 }
 
-.faq > section:last-of-type {
-    border-bottom: 1px solid #716c65;;
+section.faq > button.accordion:last-of-type {
+    border-bottom: 1px solid #716c65;
+}
+
+section.faq > .panel {
+    padding: 1rem ;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+button.accordion:hover + .panel{
+    display: block;
+    background-color: rgb(184, 184, 184);
+}
+
+section.faq > button.accordion:hover {
+    background-color: rgb(184, 184, 184);
+    border-bottom: none;
 }
 
 footer{
@@ -406,13 +427,14 @@ button:hover > a{
     text-decoration: none;
 }
 
-button:hover{
+button.azure-back:hover{
     background-color: #004fcf;
     transition: background-color 1s ease-out;
 }
 
 button.white-back:hover{
     background-color: rgb(207, 207, 207);
+    transition: background-color 1s ease-out;
 }
 
 /* ! img section */
