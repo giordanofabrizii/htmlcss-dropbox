@@ -44,7 +44,7 @@ input[type="search"]{
 }
 
 .container{
-    width: 100rem;
+    width: 70rem;
     margin: 0 auto;
 }
 
@@ -105,6 +105,27 @@ main i{
 main input[type="search"] {
     height: 3rem;
     font-size: 1.3rem;
+}
+
+main .articles{
+    justify-content: space-around;;
+}
+
+main .articles article{
+    width: calc((100% / 3) - 3rem);
+}
+
+main section.articles > article > .image-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1/1;
+}
+
+main .articles img{
+    width: 80%;
+    align-self: center;
 }
 
 /* ? COLORS */
