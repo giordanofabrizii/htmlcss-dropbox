@@ -390,6 +390,10 @@ section.language p{
     margin: 0 0.6rem;
 }
 
+i {
+    align-self: center;
+}
+
 /* ! img section */
 
 #designit {
