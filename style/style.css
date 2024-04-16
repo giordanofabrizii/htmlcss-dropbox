@@ -63,7 +63,7 @@ a{
     color: black;
     display: inline-block;
     vertical-align: top;
-    font-size: 1rem
+    font-size: 1rem;
 }
 
 section.header-content{
@@ -249,7 +249,6 @@ section.partner section.text p{
 
 section.partner section.text button{
     padding: 0.7rem 1rem;
-    background-color: white;
     border: 2px solid black;
 }
 
@@ -343,7 +342,6 @@ section.prova-gratuita button {
     margin-top: 0.4rem;
     height: 3rem;
     width: 17rem;
-    background-color: white;
 }
 
 section.faq{
@@ -396,6 +394,25 @@ section.language p{
 
 i {
     align-self: center;
+}
+
+/* * hover effect */
+
+a:hover{
+    text-decoration: underline;
+}
+
+button:hover > a{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: #004fcf;
+    transition: background-color 1s ease-out;
+}
+
+button.white-back:hover{
+    background-color: rgb(207, 207, 207);
 }
 
 /* ! img section */
@@ -465,4 +482,8 @@ i {
 
 .black-back{
     background-color: black ;
+}
+
+.white-back{
+    background-color: white;
 }
