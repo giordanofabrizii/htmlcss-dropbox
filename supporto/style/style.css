@@ -44,7 +44,7 @@ input[type="search"]{
 }
 
 .container{
-    width: 70rem;
+    width: 85rem;
     margin: 0 auto;
 }
 
@@ -165,8 +165,8 @@ main section.products {
     justify-content: space-between;
 }
 
-main section.products > article{
-    width: calc((100% / 4) - 1.5rem);
+main section.products > article, main section.brown-back article{
+    width: calc((100% / 4) - 3rem);
     margin-bottom: 4rem;
 }
 
@@ -176,6 +176,16 @@ main section.products > article h4{
 
 main section.products > article p{
     line-height: 1.5rem;
+}
+
+main section.brown-back section.horizontal-alignment{
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 4rem;
+}
+
+main section.brown-back section.horizontal-alignment p{
+    margin: 2rem 0;
 }
 
 /* ? COLORS */
