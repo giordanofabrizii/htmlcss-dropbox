@@ -6,6 +6,10 @@
     font-family: "Open Sans", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .limitation-main{
     width: 120rem;
     margin: 0 auto;
