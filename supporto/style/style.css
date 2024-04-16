@@ -6,6 +6,7 @@
 
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* ! GENERALI */
@@ -43,21 +44,63 @@ input[type="search"]{
 }
 
 /* ! HEADER */
+
+header{
+    position: fixed;
+    width: 100vw;
+}
+
 header .search-bar{
     width: 7rem;
 }
 
 header section.top{
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 header li{
     margin: auto 0.7rem;
-    font-size: 0.7rem;
+    font-size: 1rem;
+}
+
+/* ! MAIN */
+
+main{
+    padding-top: 6.5rem;
+}
+
+main section.first-info {
+    width: 100vw;
+}
+
+main section.first-info > *{
+    width: 50%;
+    height: 15rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+main section.first-info h1 {
+    font-size: 3rem;
+    font-weight: 400;
 }
 
 /* ? COLORS */
 .gray-color{
     color: #6d7074;
+}
+
+.brown-back {
+    background-color: #1e1919;
+}
+
+.white-color{
+    color: white;
+}
+
+.azure-back{
+    background-color: #b4c8e1;
 }
