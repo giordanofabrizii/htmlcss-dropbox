@@ -2,4 +2,62 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: black;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* ! GENERALI */
+html {
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.horizontal-alignment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section.search-bar {
+    border: 1px solid #9da7b0;
+    font-size: 0.8rem;
+    color: #9da7b0;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="search"]{
+    border: none;
+    width: calc(100% - 1rem);
+}
+
+/* ! HEADER */
+header .search-bar{
+    width: 7rem;
+}
+
+header section.top{
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header li{
+    margin: auto 0.7rem;
+    font-size: 0.7rem;
+}
+
+/* ? COLORS */
+.gray-color{
+    color: #6d7074;
 }
