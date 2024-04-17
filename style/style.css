@@ -365,6 +365,9 @@ section.faq > button.accordion{
 section.faq > button.accordion:last-of-type {
     border-bottom: 1px solid #716c65;
 }
+section.faq > button.accordion:last-of-type +.panel{
+border-bottom: 1px solid black;
+}
 
 section.faq > .panel {
     padding: 1rem ;
@@ -375,11 +378,9 @@ section.faq > .panel {
 
 button.accordion:hover + .panel{
     display: block;
-    background-color: rgb(184, 184, 184);
 }
 
 section.faq > button.accordion:hover {
-    background-color: rgb(184, 184, 184);
     border-bottom: none;
 }
 
