@@ -280,6 +280,17 @@ header > nav.bottom > ul > li:hover {
 
 header > nav.bottom > ul > li:hover > div.drop-down {
     display: flex;
+    z-index: 2;
+}
+
+header > nav.bottom > ul > li:hover > .opacity {
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 7.6rem;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* ? COLORS */
