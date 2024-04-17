@@ -54,7 +54,6 @@ header{
     position: fixed;
     width: 100vw;
     background-color: white;
-    padding-bottom: 0.3rem;
 }
 
 header .search-bar{
@@ -66,15 +65,29 @@ header section.top{
     padding: 1.5rem;
 }
 
-header li{
-    margin: auto 0.7rem;
+header li {
+    padding: 0.5rem 2rem;
+    
+}
+
+header a{
     font-size: 1rem;
+    position: relative;
+}
+
+header .drop-down {
+    position: absolute;
+    top: 100%;
+    transform: translateX(-2rem);
+    display: flex;
+    flex-direction: column;
+    display: none;
 }
 
 /* ! MAIN */
 
 main{
-    padding-top: 6rem;
+    padding-top: 7rem;
 }
 
 main .container{
@@ -258,6 +271,15 @@ footer .language > *{
     margin-right: 1rem;
     font-size: 0.8rem;
     margin-bottom: 3rem;
+}
+
+/* * hover effects */
+header > nav.bottom > ul > li:hover {
+    background-color: #f7f5f2;
+}
+
+header > nav.bottom > ul > li:hover > div.drop-down {
+    display: flex;
 }
 
 /* ? COLORS */
